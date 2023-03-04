@@ -1,1 +1,16 @@
+  
+spring:
+  application:
+    name: CONFIG-dev
+
+# Service registration on Eureka server        
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+#below bydefault value but for learning we have added this
+  client:
+    fetch-registry: true     
+    register-with-eureka: true
+    
 
