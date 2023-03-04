@@ -1,4 +1,9 @@
-#User Service registration on Eureka server        
+  
+spring:
+  application:
+    name: CONFIG-default
+
+# Service registration on Eureka server        
 eureka:
   instance:
     hostname: localhost
